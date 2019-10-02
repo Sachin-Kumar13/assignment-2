@@ -23,7 +23,8 @@ def subArraySum(arr, n, sum):
 
     print("No subarray found")
     return 0
-arr=list(map(int,input().split()))
+
+arr= list (map (int,input().split()))
 n=len(arr)
 sum=int(input())
 subArraySum(arr, n, sum)
